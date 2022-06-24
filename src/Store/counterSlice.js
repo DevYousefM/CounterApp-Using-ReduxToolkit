@@ -24,7 +24,6 @@ export const counterReducer = createSlice({
     },
     toggleCounter: (state) => {
       state.status ? (state.status = false) : (state.status = true);
-      // console.log(state);
     },
   },
 });
